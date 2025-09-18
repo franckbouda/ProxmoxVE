@@ -57,9 +57,9 @@
 Example:
 
 ```bash
-# Copyright (c) 2021-2025 community-scripts ORG
+# Copyright (c) 2021-2025 franckbouda ORG
 # Author: [YourUserName]
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/franckbouda/ProxmoxVE/raw/main/LICENSE
 # Source: [SOURCE_URL]
 ```
 

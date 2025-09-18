@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/refs/heads/main/misc/build.func)
-# Copyright (c) 2021-2025 community-scripts ORG
+source <(curl -fsSL https://raw.githubusercontent.com/franckbouda/ProxmoxVE/refs/heads/main/misc/build.func)
+# Copyright (c) 2021-2025 franckbouda ORG
 # Author: elvito
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/franckbouda/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/PCJones/UmlautAdaptarr
 
 APP="UmlautAdaptarr"

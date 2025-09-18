@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2021-2025 community-scripts ORG
+# Copyright (c) 2021-2025 franckbouda ORG
 # Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/franckbouda/ProxmoxVE/raw/main/LICENSE
 # Source: https://actualbudget.org/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -30,14 +30,14 @@ chmod -R 755 /opt/actualbudget-data
 
 cat <<EOF >/opt/actualbudget-data/config.json
 {
-  "port": 5006,
+  "port": 80,
   "hostname": "::",
   "serverFiles": "/opt/actualbudget-data/server-files",
   "userFiles": "/opt/actualbudget-data/user-files",
   "trustedProxies": [
     "10.0.0.0/8",
     "172.16.0.0/12",
-    "192.168.0.0/16",
+    "192.168.0.0/24",
     "127.0.0.0/8",
     "::1/128",
     "fc00::/7"

@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/franckbouda/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/Whisparr/Whisparr
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -36,6 +36,7 @@ After=syslog.target network.target
 UMask=0002
 Type=simple
 ExecStart=/opt/Whisparr/Whisparr -nobrowser -data=/var/lib/whisparr/
+Environment="PORT=80"
 TimeoutStopSec=20
 KillMode=process
 Restart=on-failure

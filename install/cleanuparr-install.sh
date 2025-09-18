@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2021-2025 community-scripts ORG
+# Copyright (c) 2021-2025 franckbouda ORG
 # Author: Lucas Zampieri (zampierilucas) | MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/franckbouda/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/Cleanuparr/Cleanuparr
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -28,7 +28,7 @@ WorkingDirectory=/opt/cleanuparr
 ExecStart=/opt/cleanuparr/Cleanuparr
 Restart=on-failure
 RestartSec=5
-Environment="PORT=11011"
+Environment="PORT=80"
 Environment="CONFIG_DIR=/opt/cleanuparr/config"
 
 [Install]

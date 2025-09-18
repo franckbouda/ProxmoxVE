@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2021-2025 community-scripts ORG
+# Copyright (c) 2021-2025 franckbouda ORG
 # Author: michelroegl-brunner
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/franckbouda/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/opf/openproject
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -63,7 +63,7 @@ server/autoinstall install
 server/variant apache2
 
 server/hostname ${IP_ADDR}
-server/server_path_prefix /openproject
+server/server_path_prefix /
 server/ssl no
 server/variant apache2
 server/server_path_prefix
@@ -74,7 +74,7 @@ repositories/git-path /var/db/openproject/git
 repositories/git-http-backend /usr/lib/git-core/git-http-backend/
 memcached/autoinstall install
 openproject/admin_email admin@example.net
-openproject/default_language en
+openproject/default_language fr
 EOF
 
 $STD sudo openproject configure
