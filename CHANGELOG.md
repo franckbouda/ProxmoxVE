@@ -10,6 +10,90 @@
 > [!CAUTION]
 Exercise vigilance regarding copycat or coat-tailing sites that seek to exploit the project's popularity for potentially malicious purposes.
 
+## 2025-09-20
+
+### 🚀 Updated Scripts
+
+  - checkmk.sh Update: Revert old Pr  [@michelroegl-brunner](https://github.com/michelroegl-brunner) ([#7765](https://github.com/community-scripts/ProxmoxVE/pull/7765))
+
+  - #### 🐞 Bug Fixes
+
+    - Wazuh: Increase HDD size [@tremor021](https://github.com/tremor021) ([#7759](https://github.com/community-scripts/ProxmoxVE/pull/7759))
+
+### 🧰 Maintenance
+
+  - #### 📂 Github
+
+    - Add Debian 13 in bug report template [@michelroegl-brunner](https://github.com/michelroegl-brunner) ([#7757](https://github.com/community-scripts/ProxmoxVE/pull/7757))
+
+## 2025-09-19
+
+### 🆕 New Scripts
+
+  - Tunarr ([#7735](https://github.com/community-scripts/ProxmoxVE/pull/7735))
+
+### 🚀 Updated Scripts
+
+  - #### 🐞 Bug Fixes
+
+    - SigNoz: Fix wrong URL for Zookeeper [@tremor021](https://github.com/tremor021) ([#7742](https://github.com/community-scripts/ProxmoxVE/pull/7742))
+
+## 2025-09-18
+
+### 🆕 New Scripts
+
+  - Alpine-Caddy [@tremor021](https://github.com/tremor021) ([#7711](https://github.com/community-scripts/ProxmoxVE/pull/7711))
+- pve-tool: execute.sh by @jeroenzwart [@MickLesk](https://github.com/MickLesk) ([#7708](https://github.com/community-scripts/ProxmoxVE/pull/7708))
+- GlobaLeaks ([#7707](https://github.com/community-scripts/ProxmoxVE/pull/7707))
+
+### 🚀 Updated Scripts
+
+  - #### 🐞 Bug Fixes
+
+    - Delay chmod after updating beszel [@CrazyWolf13](https://github.com/CrazyWolf13) ([#7725](https://github.com/community-scripts/ProxmoxVE/pull/7725))
+    - Remove redundant globaleaks configuration [@evilaliv3](https://github.com/evilaliv3) ([#7723](https://github.com/community-scripts/ProxmoxVE/pull/7723))
+    - Gatus: check for GO path before update [@vhsdream](https://github.com/vhsdream) ([#7705](https://github.com/community-scripts/ProxmoxVE/pull/7705))
+
+  - #### ✨ New Features
+
+    - Cloudflared: Bump to Debian 13 [@MickLesk](https://github.com/MickLesk) ([#7719](https://github.com/community-scripts/ProxmoxVE/pull/7719))
+    - AdGuard Home: Bump to Debian 13 [@MickLesk](https://github.com/MickLesk) ([#7720](https://github.com/community-scripts/ProxmoxVE/pull/7720))
+
+  - #### 🔧 Refactor
+
+    - Immich: Debian Trixie [@vhsdream](https://github.com/vhsdream) ([#7728](https://github.com/community-scripts/ProxmoxVE/pull/7728))
+
+### 🌐 Website
+
+  - #### 📝 Script Information
+
+    - Add Warning for Containerized Home Assistant [@ZaxLofful](https://github.com/ZaxLofful) ([#7704](https://github.com/community-scripts/ProxmoxVE/pull/7704))
+
+## 2025-09-17
+
+### 🚀 Updated Scripts
+
+  - #### 🐞 Bug Fixes
+
+    - beszel: fix: binary permission after upgrade [@CrazyWolf13](https://github.com/CrazyWolf13) ([#7697](https://github.com/community-scripts/ProxmoxVE/pull/7697))
+    - RabbitMQ: Update repositories [@tremor021](https://github.com/tremor021) ([#7689](https://github.com/community-scripts/ProxmoxVE/pull/7689))
+    - Komodo: Add docker compose pull for actually updating docker container [@hanneshier](https://github.com/hanneshier) ([#7682](https://github.com/community-scripts/ProxmoxVE/pull/7682))
+
+  - #### ✨ New Features
+
+    - Debian-LXC: Bump to Debian 13 Trixie [@MickLesk](https://github.com/MickLesk) ([#7683](https://github.com/community-scripts/ProxmoxVE/pull/7683))
+    - Bump Immich to v1.142.1 [@vhsdream](https://github.com/vhsdream) ([#7675](https://github.com/community-scripts/ProxmoxVE/pull/7675))
+
+  - #### 🔧 Refactor
+
+    - Refactor: Grist [@tremor021](https://github.com/tremor021) ([#7681](https://github.com/community-scripts/ProxmoxVE/pull/7681))
+
+### 🧰 Maintenance
+
+  - #### 📂 Github
+
+    - Improve: SECURITY.md for clarity and detail + Adding PVE9 as supported [@MickLesk](https://github.com/MickLesk) ([#7690](https://github.com/community-scripts/ProxmoxVE/pull/7690))
+
 ## 2025-09-16
 
 ### 🚀 Updated Scripts
