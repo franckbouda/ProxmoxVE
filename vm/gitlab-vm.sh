@@ -466,7 +466,8 @@ fi
 msg_ok "Using ${CL}${BL}$STORAGE${CL} ${GN}for Storage Location."
 msg_ok "Virtual Machine ID is ${CL}${BL}$VMID${CL}."
 msg_info "Retrieving the URL for the $NAME Disk Image"
-URL="https://www.turnkeylinux.org/download?file=turnkey-gitlab-18.1-bookworm-amd64.iso"
+URL="http://mirror.turnkeylinux.org/turnkeylinux/images/iso/turnkey-gitlab-18.1-bookworm-amd64.iso"
+#URL="https://www.turnkeylinux.org/download?file=turnkey-gitlab-18.1-bookworm-amd64.iso"
 sleep 2
 msg_ok "${CL}${BL}${URL}${CL}"
 curl -f#SL -o "$(basename "$URL")" "$URL"
